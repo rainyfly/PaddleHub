@@ -36,6 +36,8 @@
 ## 二、安装
 
 - ### 1、环境依赖  
+  - paddlepaddle >= 2.1.0
+  - paddlehub >= 2.1.0    | [如何安装PaddleHub](../../../../docs/docs_ch/get_start/installation.rst)
   - ffmpeg
   - libsndfile
 - ### 2、安装
