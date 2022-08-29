@@ -7,7 +7,7 @@
 |数据集|-|
 |是否支持Fine-tuning|否|
 |模型大小|4.0GB|
-|最新更新日期|2021-08-26|
+|最新更新日期|2022-08-26|
 |数据指标|-|
 
 ## 一、模型基本信息
@@ -89,7 +89,7 @@ Stable Diffusion是一种潜在扩散模型(Latent Diffusion)， 属于生成类
             width_height: Optional[List[int]] = [512, 512],
             seed: Optional[int] = None,
             batch_size: Optional[int] = 1,
-            output_dir: Optional[str] = 'disco_diffusion_clip_vitb32_out'):
+            output_dir: Optional[str] = 'stable_diffusion_out'):
     ```
 
     - 文图生成API，生成文本描述内容的图像。
